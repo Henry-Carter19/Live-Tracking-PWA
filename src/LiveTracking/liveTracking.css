@@ -1,0 +1,42 @@
+.live-tracking-container {
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 10px !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.location-data {
+  padding: 10px;
+}
+
+.coord-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.coord-item:last-child {
+  border-bottom: none;
+}
+
+.coord-label {
+  font-weight: 500;
+  color: #555;
+}
+
+.coord-value {
+  font-family: monospace;
+  color: #333;
+}
+
+/* Add animation for location updates */
+@keyframes pulse {
+  0% { background-color: rgba(13, 110, 253, 0.05); }
+  50% { background-color: rgba(13, 110, 253, 0.15); }
+  100% { background-color: rgba(13, 110, 253, 0.05); }
+}
+
+.location-updating {
+  animation: pulse 1.5s infinite;
+}
