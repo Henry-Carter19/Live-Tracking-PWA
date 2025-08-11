@@ -1,5 +1,6 @@
 import React from 'react';
-import LiveTracking from './LiveTracking/LiveTracking';
+import LiveTracking from './LiveTracking/LiveTrackingMap';
+import LiveTrackingMap from './LiveTracking/LiveTrackingMap';
 
 const App = () => {
 
@@ -7,7 +8,8 @@ const App = () => {
   return (
 <>
 
-    <LiveTracking/>
+    {/* <LiveTracking/> */}
+    <LiveTrackingMap/>
 
 </>
   );
