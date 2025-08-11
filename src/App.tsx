@@ -1,5 +1,5 @@
 import React from 'react';
-import LiveTracking from './LiveTracking/LiveTrackingMap';
+import LiveTracking from './LiveTracking/LiveTracking';
 
 const App = () => {
 
